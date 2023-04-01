@@ -1,0 +1,11 @@
+{
+	"folders": [
+        {
+            "name": "html5up-phantom",
+            "path": "."
+        }
+    ],
+    "settings": {
+        "liveServer.settings.port": 5502
+    }
+}
