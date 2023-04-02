@@ -151,7 +151,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #f2849e !important;
+			color: #585858 !important;
 		}
 
 	strong, b {
@@ -1856,8 +1856,8 @@ input, select, textarea {
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+				color: #585858;
+				border-color: #585858;
 			}
 
 			.icon.style2:active {
@@ -2170,8 +2170,8 @@ input, select, textarea {
 		input[type="tel"]:focus,
 		select:focus,
 		textarea:focus {
-			border-bottom-color: #f2849e;
-			box-shadow: inset 0 -1px 0 0 #f2849e;
+			border-bottom-color: #585858;
+			box-shadow: inset 0 -1px 0 0 #585858;
 		}
 
 	select {
@@ -2275,8 +2275,8 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #f2849e;
-			box-shadow: 0 0 0 1px #f2849e;
+			border-color: #585858;
+			box-shadow: 0 0 0 1px #585858;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2494,8 +2494,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			color: #f2849e !important;
-			box-shadow: inset 0 0 0 2px #f2849e;
+			color: #585858 !important;
+			box-shadow: inset 0 0 0 2px #585858;
 		}
 
 		input[type="submit"]:active,
@@ -2537,7 +2537,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #f2849e;
+				background-color: #585858;
 			}
 
 			input[type="submit"].primary:active,
@@ -2545,7 +2545,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #ee5f81;
+				background-color: black;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2627,7 +2627,7 @@ input, select, textarea {
 					-webkit-transition: opacity 0.5s ease;
 					-ms-transition: opacity 0.5s ease;
 					transition: opacity 0.5s ease;
-					content: '';
+					/* content: ''; */
 					display: block;
 					position: absolute;
 					top: 0;
@@ -2706,7 +2706,7 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: none;
 			}
 
 			.tiles article.style2 > .image:before {
@@ -2829,7 +2829,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 8em 0 0.1em 0 ;
+		padding: 2em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2948,7 +2948,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header {
-				padding: 4em 0 0.1em 0 ;
+				padding: 2em 0 0.1em 0 ;
 			}
 
 				#header nav {
@@ -3327,3 +3327,14 @@ input, select, textarea {
 			}
 
 		}
+
+
+/* My CSS */
+
+.faqHeader{
+    margin-bottom: 10px;
+}
+
+a:hover{
+    cursor: pointer;
+}
